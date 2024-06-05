@@ -1,0 +1,223 @@
+
+
+<html>
+<head>
+<title>FAVOURITE</title>
+<link rel="stylesheet" href="resource/css/style_2.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<div class="topnavbar">
+    <a href="index.html">HOME</a>
+    <a href="home.html">ABOUT ME</a>
+    <a href="hobby.html">HOBBY & INTEREST</a>   
+    <a href="rolemodel.html">ROLE MODEL</a>
+    <a href="favo.html">FAVOURITE</a>
+    <a href="friends.html">FRIENDS & FAMILY</a>
+    <a href="education.html">EDUCATION</a>
+    <a href="comment.html">COMMENT</a>
+
+</div>
+
+<br><br><br>
+<div class = "title"> FAVOURITE </div class>
+<body>
+<br><br>
+
+<div class = "subtitle"> My Favourites </div class>
+
+<br><br>
+
+<div class = "movie"> My Favourite Movies:  </div class>
+<br>
+    <style>
+        .flip-container {
+            perspective: 1000px;
+            width: 200px; /* Adjust the width as needed */
+            height: 300px; /* Adjust the height as needed */
+            margin: 20px; /* Adjust spacing between cards */
+            display: inline-block; /* Keep cards side by side */
+        }
+        .flipper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+        }
+        .flip-container.flip .flipper {
+            transform: rotateY(180deg);
+        }
+        .front, .back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .front {
+            background-size: cover;
+        }
+        .back {
+            background-color: #C3F2ED; /* Background color for the text side */
+            transform: rotateY(180deg);
+            font-size: 16px; /* Adjust text size as needed */
+            color: #333; /* Text color */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap; /* Allows wrapping of cards to the next line */
+            justify-content: center; /* Center the cards in the container */
+        }
+    </style>
+</head>
+<body>
+    <div class="cards-container">
+        <div class="flip-container" id="flip-container-1">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/movie_1.jpg');"></div>
+                <div class="back">
+		    <div>Kingsman: The Secret Service</div> <br>
+                    <div>A spy organisation recruits a promising street kid into the agency's training program, while a global threat emerges from a twisted tech genius.</div> <br>
+                    <div>Genre: Action, Adventure, Comedy</div>
+                </div>
+            </div>
+        </div>
+        <div class="flip-container" id="flip-container-2">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/movie_2.jpg');"></div> <br>
+                <div class="back">
+		    <div>Character</div> <br>
+                    <div>A kind man aspires to become a comic creator, but villains and evil deeds do not come easily to him, for he has little experience or natural inclination for them. Things take a surprise turn when he comes across a family who were described as idealized that are no more.</div> <br>
+                    <div>Genre: Crime, Drama, Mystery</div>
+                </div>
+            </div>
+        </div>
+        <div class="flip-container" id="flip-container-3">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/movie_3.jpg');"></div> <br>
+                <div class="back">
+		    <div>Hereditary</div> <br>
+                    <div>A grieving family is haunted by tragic and disturbing occurrences.</div> <br>
+                    <div>Genre: Drama, Horror, Mystery</div>
+                </div>
+            </div>
+        </div>
+        <div class="flip-container" id="flip-container-4">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/movie_4.jpg');"></div>
+                <div class="back">
+		    <div>KungFu Panda</div> <br>
+                    <div>To everyone's surprise, including his own, Po, an overweight, clumsy panda, is chosen as protector of the Valley of Peace. His suitability will soon be tested as the valley's arch-enemy is on his way.</div> <br>
+                    <div>Genre: Animation, Adventure, Action</div>
+                </div>
+            </div>
+        </div>
+        <div class="flip-container" id="flip-container-5">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/movie_5.jpg');"></div> <br>
+                <div class="back">
+		    <div>New Gods: Yang Jian</div> <br>
+                    <div>Fifteen hundred years after the war of gods, the heaven declined. Yang Jian, the God of Erlang, made a living by working as a catcher. One day, Yang Jian was ordered to hunt down a young man, his own nephew.</div> <br>
+                    <div>Genre: Animation, Action, Fantasy</div>
+                </div>
+            </div>
+        </div>
+        <div class="flip-container" id="flip-container-6">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/movie_6.jpg');"></div>
+                <div class="back">
+		    <div>Coraline</div> <br>
+                    <div>Wandering her rambling old house in her boring new town, an 11-year-old Coraline discovers a hidden door to a strangely idealized version of her life. In order to stay in the fantasy, she must make a frighteningly real sacrifice.</div> <br>
+                    <div>Genre: Animation, Drama, Family</div>
+                </div>
+            </div>
+        </div>
+        <!-- Add more flip-container divs as needed -->
+    </div>
+
+
+
+<div class = "movie"> My Favourite Music:  </div class>
+<br>
+    <div class="cards-container">
+        <div class="flip-container" id="flip-container-7">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/music_1.jpg');"></div>
+                <div class="back">
+		    <div><a href="https://youtu.be/t-6ooVGKofY?si=pDPRBgq4VlR9HGLS">Daydream by Grace Blue</a></div> <br>
+                </div>
+            </div>
+        </div>
+        <div class="flip-container" id="flip-container-8">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/music_2.jpg');"></div>
+                <div class="back">
+		    <div><a href="https://youtu.be/mshF0R_6QJk?si=a-aZj9AbCfgRKiU1">There Are Lines by Death Note Musical (English version)</a></div> <br>
+                </div>
+            </div>
+        </div>
+        <div class="flip-container" id="flip-container-9">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/music_3.jpg');"></div>
+                <div class="back">
+		    <div><a href="https://youtu.be/6Ac0J_PPQLg?si=v3Rgsd3I0ORlMzSE">Separation Anxiety by Royal & the Serpent</a></div> <br>
+
+                </div>
+            </div>
+        </div>
+        <div class="flip-container" id="flip-container-10">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/music_4.jpg');"></div>
+                <div class="back">
+		    <div><a href="https://youtu.be/AWPB2p1CEZQ?si=AKO2NnkzkhTCHeUs">Stuck Inside by The Living Tombstone</a></div> <br>
+                </div>
+            </div>
+        </div>
+        <div class="flip-container" id="flip-container-11">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/music_5.jpg');"></div>
+                <div class="back">
+		    <div><a href="https://youtu.be/UPVXcnsle4Q?si=hc40PVM8QBDloqm4">Devil by DREAMDNVR</a></div> <br>
+                </div>
+            </div>
+        </div>
+        <div class="flip-container" id="flip-container-12">
+            <div class="flipper">
+                <div class="front" style="background-image: url('resource/image/music_6.jpg');"></div>
+                <div class="back">
+		    <div><a href="https://youtu.be/Lomk3eOx9Sw?si=LlOrDS5NFsKLKS0_">Goddess by Xana</a></div> <br>
+                  
+                </div>
+            </div>
+        </div>
+               
+    <script>
+        document.querySelectorAll('.flip-container').forEach(container => {
+            container.addEventListener('click', function() {
+                this.classList.toggle('flip');
+            });
+        });
+    </script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<div class="navbar">
+
+    <a href="https://www.tiktok.com/@bougeepotato?_t=8mtwSig4ZZC&_r=1" class="active">  <i class="fab fa-tiktok"></i></a>
+    <a href="https://www.instagram.com/domi_berryl?igsh=MThzaHd5a2J0ODB5Nw%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i> </a>
+    <a href="https://www.facebook.com/profile.php?id=100089563998250&mibextid=LQQJ4d"> <i class="fab fa-facebook"></i></a>
+    <a href="mailto:2022892948@student.uitm.edu.my"><i class="fas fa-envelope"></i></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+ body {
+    background-color: #f7bbe1;
+    border: 1px solid black;
+    border: 4px dashed #C3F2ED;
+    box-sizing: border-box;
+    
+}
+
+
+
+.title {
+    font-family: Novo;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #6F2568;
+    background-color: #FFFFFF; 
+    padding: 10px;    
+    border-radius: 10px; 
+}
+
+/* Place the navbar at the bottom of the page and make it stick */
+.topnavbar {
+    background-color: #CD1470;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnavbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Novo;
+    font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnavbar a:hover {
+    background-color: #EB8006;
+    color: white;
+}
+
+
+
+/* Place the navbar at the bottom of the page and make it stick */
+.navbar {
+    background-color: #CD1470;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: centre;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Novo;
+    font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #EB8006;
+    color: white;
+}
+
+
+
+.content{
+	height:400px;
+	background:#E7DDFF;
+	border-top:#FFFFFF 2px solid;
+	margin:40;
+	padding:20;
+	} 
+
+ 

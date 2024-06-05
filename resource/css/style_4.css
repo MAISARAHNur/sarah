@@ -1,0 +1,148 @@
+body {
+    background-color: #f7bbe1;
+    border: 1px solid black;
+    border: 4px dashed #C3F2ED;
+    box-sizing: border-box;
+    
+}
+
+
+
+.title {
+    font-family: Novo;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #6F2568;
+    background-color: #FFFFFF; 
+    padding: 10px;    
+    border-radius: 10px; 
+}
+
+/* Place the navbar at the bottom of the page and make it stick */
+.topnavbar {
+    background-color: #CD1470;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnavbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Novo;
+    font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnavbar a:hover {
+    background-color: #EB8006;
+    color: white;
+}
+
+
+
+/* Place the navbar at the bottom of the page and make it stick */
+.navbar {
+    background-color: #CD1470;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Novo;
+    font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #EB8006;
+    color: white;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+ 
+
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+ /* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #FFFFFF;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+
+
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

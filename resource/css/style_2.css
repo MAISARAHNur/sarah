@@ -1,0 +1,161 @@
+body {
+    background-color: #f7bbe1;
+    border: 1px solid black;
+    border: 4px dashed #C3F2ED;
+    box-sizing: border-box;
+    
+}
+
+
+
+.title {
+    font-family: Novo;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #6F2568;
+    background-color: #FFFFFF; 
+    padding: 10px;    
+    border-radius: 10px; 
+}
+
+.subtitle {
+    position: relative;
+    display: inline-block
+    font-family: Novo;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #900C3F;  
+    padding: 10px;    
+    border-radius: 10px; 
+}
+
+.subtitle::after {
+            content: '';
+            position: absolute;
+            left: 0; 
+            bottom: -2px; /* Adjust this value to position the underline */
+            width: 100%;
+            height: 5px; /* Adjust this value for the underline thickness */
+            background-color: white; /* Set your desired underline color here */
+}
+
+.movie {
+    position: relative;
+    display: inline-block
+    font-family: Novo;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    color: black;  
+    padding: 10px;     
+}
+
+
+/* Place the navbar at the bottom of the page and make it stick */
+.topnavbar {
+    background-color: #CD1470;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnavbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Novo;
+    font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnavbar a:hover {
+    background-color: #EB8006;
+    color: white;
+}
+
+
+
+/* Place the navbar at the bottom of the page and make it stick */
+.navbar {
+    background-color: #CD1470;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: centre;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Novo;
+    font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #EB8006;
+    color: white;
+}
+
+.content{
+	height:300px;
+	background:#E7DDFF;
+	border-top:#FFFFFF 2px solid;
+	margin:20;
+	padding:20;
+        
+	}
+
+  /* YUI grid layout styles */
+        #bd {
+            width: 100%;
+        }
+
+        .yui-main {
+            width: 100%;
+        }
+
+        .yui-b {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .yui-g {
+            display: flex;
+            width: 100%;
+        }
+
+        .yui-g.first {
+            margin-bottom: 20px;
+        }
+
+        .yui-u {
+            flex: 1;
+            margin: 20px;
+        }
+
+        .yui-u.first {
+            margin-right: 20px;
+        }
+
+
+ .content img {
+      width: 400px; /* Set a fixed width */
+      height: 300px; /* Set a fixed height */
+      object-fit: cover; /* Ensures the image covers the area without distortion */
+
+

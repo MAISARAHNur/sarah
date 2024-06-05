@@ -1,0 +1,127 @@
+<html>
+<head>
+<link rel="stylesheet" href="resource/css/style_2.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>COMMENT</title>
+    <style>
+                .container {
+            max-width: 800px;
+            margin: 100px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #6F2568;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        #comments {
+            margin-top: 20px;
+        }
+
+        #comments div {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnavbar">
+	<a href="index.html">HOME</a>
+        <a href="home.html">ABOUT ME</a>
+        <a href="hobby.html">HOBBY & INTEREST</a>   
+        <a href="rolemodel.html">ROLE MODEL</a>
+        <a href="favo.html">FAVOURITE</a>
+        <a href="friends.html">FRIENDS & FAMILY</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="contact.html">COMMENT</a>
+    </div>
+
+<br><br><br>
+    <div class="title">COMMENT SECTION</div>
+
+    <div class="container">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+
+            <button type="submit">Post Comment</button>
+        </form>
+
+        <h2>Comments</h2>
+        <div id="comments">
+            <!-- Comments will be displayed here -->
+        </div>
+    </div>
+
+      
+    <div class="navbar">
+        <a href="https://www.tiktok.com/@bougeepotato?_t=8mtwSig4ZZC&_r=1"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.instagram.com/domi_berryl?igsh=MThzaHd5a2J0ODB5Nw%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100089563998250&mibextid=LQQJ4d"><i class="fab fa-facebook"></i></a>
+        <a href="mailto:2022892948@student.uitm.edu.my"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const comment = document.getElementById('comment').value;
+
+            const newComment = document.createElement('div');
+            newComment.innerHTML = `<strong>${name}</strong>: ${comment}`;
+
+            document.getElementById('comments').appendChild(newComment);
+
+            document.getElementById('name').value = '';
+            document.getElementById('comment').value = '';
+            });
+    </script>
+</body>
+</html>
+
+
+
+
+
